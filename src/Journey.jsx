@@ -19,7 +19,7 @@ const Journey = () => {
       </Typography>
 
 
-    <Box sx={{ display:'flex', alignItems:'center', justifyContent:'space-evenly', mt:'6rem' }} >
+    <Box sx={{ display:'flex', alignItems:'center', justifyContent:'space-evenly', mt:'3rem' }} >
 
         <Box sx={{ display:'flex', alignItems:'center', justifyContent:"center", flexDirection:'column' }} >
         <Box component="img" src={work} sx={{ width:'5rem' }} />
@@ -36,7 +36,7 @@ const Journey = () => {
 
     </Box>
 
-    <Box sx={{ display:'flex', justifyContent:'space-evenly', mt:6 }} >
+    <Box sx={{ display:'flex', justifyContent:'space-evenly', mt:2 }} >
 
     <Box>
 
