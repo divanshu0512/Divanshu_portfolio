@@ -3,6 +3,8 @@ import Landing from './Landing'
 import NextPage from './NextPage'
 import Skillls from './Skillls'
 import Services from './Services'
+import Journey from './Journey'
+import Contact from './Contact'
 
 const Handler = () => {
   return (
@@ -12,6 +14,8 @@ const Handler = () => {
         <Skillls/>
         {/* <NextPage/> */}
         <Services/>
+        <Journey/>
+        <Contact/>
     </div>
   )
 }

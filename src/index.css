@@ -270,3 +270,9 @@ cursor: pointer;
 .card-spotlight:focus-within::before {
   opacity: 0.6;
 }
+
+.particles-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
