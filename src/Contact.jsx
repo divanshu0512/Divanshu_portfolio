@@ -33,7 +33,7 @@ const Contact = () => {
           </Typography>
           <Typography sx={{  fontFamily:"poppins", fontSize:"1.5rem", fontWeight:500, color:'gray' }} >@Ankur_Sharma</Typography>
 
-          <Box sx={{ border:'1px solid white', display:'flex', alignItems:'center', justifyContent:"space-evenly", width:"30rem", borderRadius:"20rem",mt:"5rem" }} >
+          <Box sx={{ zIndex:50, border:'1px solid white', display:'flex', alignItems:'center', justifyContent:"space-evenly", width:"30rem", borderRadius:"20rem",mt:"5rem" }} >
             <Box component="img" src={mail} sx={{ width:"5rem" }} />
             <Typography sx={{ fontFamily:'poppins', fontWeight:500, fontSize:"1.2rem" }}>  sharma.ankurr16@gmail.com</Typography>
           </Box>
@@ -44,7 +44,7 @@ const Contact = () => {
           </Box>
           
 
-          <Box sx={{ border:'1px solid white', display:'flex', alignItems:'center', justifyContent:"space-evenly", width:"20rem", borderRadius:"20rem",mt:"3rem" }} >
+          <Box sx={{ zIndex:50, border:'1px solid white', display:'flex', alignItems:'center', justifyContent:"space-evenly", width:"20rem", borderRadius:"20rem",mt:"3rem" }} >
             <Box component="img" src={call} sx={{ width:"4rem", paddingY:0.5 }} />
             <Typography sx={{ fontFamily:'poppins', fontWeight:500, fontSize:"1.2rem" }}>  +91 77429 66608</Typography>
           </Box>
