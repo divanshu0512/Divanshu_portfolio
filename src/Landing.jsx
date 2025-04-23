@@ -22,11 +22,11 @@ const Landing = () => {
 
     <Box>
       {/* <Typography sx={{ fontSize:'1.5rem', color:'#bfbbbb' }} >Hii👋, This Side..</Typography> */}
-      <Typography sx={{ fontSize:'6rem', color:'white', fontWeight:600, mt:-1 }} > I'm <span style={{ color:"#60ff40" }} > Ankur </span> Sharma</Typography>
+      <Typography sx={{ fontSize:'6rem', color:'white', fontWeight:600, mt:-1 }} > I'm <span style={{ color:"#60ff40" }} > Divanshu </span> Sharma</Typography>
       <Box sx={{ zIndex:1 }} >
         
       <RotatingText
-        texts={['Website', 'PHP', 'Laravel', 'Python', "Automation"]}
+        texts={['Frontend', 'Mern_Stack', 'React_JS']}
         mainClassName="px-2 sm:px-2 md:px-3 bg-cyan-300 text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
         staggerFrom={"last"}
         initial={{ y: "100%" }}
