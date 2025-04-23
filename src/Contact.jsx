@@ -31,14 +31,14 @@ const Contact = () => {
           Get In Touch.. 
     </GradientText>
           </Typography>
-          <Typography sx={{  fontFamily:"poppins", fontSize:"1.5rem", fontWeight:500, color:'gray' }} >@Ankur_Sharma</Typography>
+          <Typography sx={{  fontFamily:"poppins", fontSize:"1.5rem", fontWeight:500, color:'gray' }} >@Divanshu_Sharma</Typography>
 
           <Box sx={{ zIndex:50, border:'1px solid white', display:'flex', alignItems:'center', justifyContent:"space-evenly", width:"30rem", borderRadius:"20rem",mt:"5rem" }} >
             <Box component="img" src={mail} sx={{ width:"5rem" }} />
-            <Typography sx={{ fontFamily:'poppins', fontWeight:500, fontSize:"1.2rem" }}>  sharma.ankurr16@gmail.com</Typography>
+            <Typography sx={{ fontFamily:'poppins', fontWeight:500, fontSize:"1.2rem" }}> divanshu2211@gmail.com</Typography>
           </Box>
 
-          <Box onClick={() => window.open("https://www.linkedin.com/in/ankur-sharma-9b2888237")} sx={{ border:'1px solid white', display:'flex', alignItems:'center', justifyContent:"space-evenly", width:"25rem", borderRadius:"30rem",mt:"3rem", cursor:"pointer", zIndex:50 }} >
+          <Box onClick={() => window.open("https://www.linkedin.com/in/divanshu-sharma-105a2b227/")} sx={{ border:'1px solid white', display:'flex', alignItems:'center', justifyContent:"space-evenly", width:"25rem", borderRadius:"30rem",mt:"3rem", cursor:"pointer", zIndex:50 }} >
             <Box component="img" src={linkedin} sx={{ width:"4rem", paddingY:0.5 }} />
             <Typography sx={{ fontFamily:'poppins', fontWeight:500, fontSize:"1.2rem", cursor:'pointer' }}> Click To Visit Linkedin Profile</Typography>
           </Box>
@@ -46,7 +46,7 @@ const Contact = () => {
 
           <Box sx={{ zIndex:50, border:'1px solid white', display:'flex', alignItems:'center', justifyContent:"space-evenly", width:"20rem", borderRadius:"20rem",mt:"3rem" }} >
             <Box component="img" src={call} sx={{ width:"4rem", paddingY:0.5 }} />
-            <Typography sx={{ fontFamily:'poppins', fontWeight:500, fontSize:"1.2rem" }}>  +91 77429 66608</Typography>
+            <Typography sx={{ fontFamily:'poppins', fontWeight:500, fontSize:"1.2rem" }}>  +91 8168997024</Typography>
           </Box>
 
 
