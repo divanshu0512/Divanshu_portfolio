@@ -10,7 +10,7 @@ const Header = () => {
         boxShadow: '0 4px 30px rgba(173, 173, 173, 0.26)',
      }} >
         <Box sx={{ display:'flex', alignItems:'center', justifyContent:'space-between' }} >
-        <Typography sx={{ fontSize:'1.5rem', color:'#bfbbbb', fontWeight:800, color:"white", letterSpacing:1.3 }} >Ankur's Portfolio</Typography>
+        <Typography sx={{ fontSize:'1.5rem', color:'#bfbbbb', fontWeight:800, color:"white", letterSpacing:1.3 }} >Divanshu's Portfolio</Typography>
 
         <Box sx={{ display:'flex', alignItems:'center', justifyContent:'space-evenly', width:'40%' }}  >
             <Typography className='cursor'  >Home</Typography>
