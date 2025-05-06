@@ -3,6 +3,8 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Landing from './Landing.jsx'
 import Handler from './Handler.jsx'
+import Projects from './component/Projects.jsx'
+import About from './About.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +14,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={ <Handler/> } />
+          <Route path="/projects" element={ <Projects/> } />
+          <Route path="/about" element={ <About/> } />
+
         </Routes>
       </BrowserRouter>
     

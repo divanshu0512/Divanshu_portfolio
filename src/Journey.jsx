@@ -48,8 +48,8 @@ const Journey = () => {
             </Box>
 
             <Box sx={{ mt:2 }} >
-                <Typography sx={{ fontFamily:'Poppins', fontWeight:500, fontSize:"1.2rem" }} >Poddar Management & Technical College, Jaipur, Rajasthan</Typography>
-                <Typography sx={{ fontFamily:'poppins', fontSize:"1rem", color:"#bababa", mt:2 }} >MCA - Master Of Computer Application</Typography>
+                <Typography sx={{ fontFamily:'Poppins', fontWeight:500, fontSize:"1.2rem" }} >APIIT SD INDIA , Panipat ,Haryana</Typography>
+                <Typography sx={{ fontFamily:'poppins', fontSize:"1rem", color:"#bababa", mt:2 }} >B.Tech - Bachelor of Technology</Typography>
             </Box>
         </Box>
 
@@ -61,8 +61,8 @@ const Journey = () => {
             </Box>
 
             <Box sx={{ mt:2 }} >
-                <Typography sx={{ fontFamily:'Poppins', fontWeight:500, fontSize:"1.2rem" }} >University of Rajasthan, Rajasthan</Typography>
-                <Typography sx={{ fontFamily:'poppins', fontSize:"1rem", color:"#bababa", mt:2 }} >B.Com - Bachelors of Commerce</Typography>
+                <Typography sx={{ fontFamily:'Poppins', fontWeight:500, fontSize:"1.2rem" }} >G.B.N Govt Polytechnic, Haryana</Typography>
+                <Typography sx={{ fontFamily:'poppins', fontSize:"1rem", color:"#bababa", mt:2 }} >Technical Diploma - Polytechnic</Typography>
             </Box>
         </Box>
     </Box>
@@ -70,15 +70,17 @@ const Journey = () => {
 
 
     <Box>
-    <Box sx={{ width:"35rem", height:"12rem", border:"1px solid white", p:2, borderRadius:"2rem", mt:2 }} >
+    <Box sx={{ width:"35rem", height:"10rem", border:"1px solid white", p:2, borderRadius:"2rem", mt:2 }} >
             <Box sx={{ display:'flex', alignItems:"center", justifyContent:"space-evenly", mt:1 }} >  
-                <Typography sx={{ fontFamily:"Poppins", fontSize:"0.9rem", color:"#bababa" }}  >07/2023</Typography>
-                <Typography sx={{ fontFamily:"Poppins", fontSize:"0.9rem", color:"#bababa" }} >Present</Typography>
+                <Typography sx={{ fontFamily:"Poppins", fontSize:"0.9rem", color:"#bababa" }}  >22 August 2022 </Typography>
+                <Typography sx={{ fontFamily:"Poppins", fontSize:"0.9rem", color:"#bababa" }} >26 April 2025</Typography>
             </Box>
 
             <Box sx={{ mt:2 }} >
+                <Box sx={{ display:'flex', alignItems:"center", justifyContent:"space-between" }} >  
                 <Typography sx={{ fontFamily:'Poppins', fontWeight:500, fontSize:"1.2rem" }} >Eezib Technology, Jaipur, Rajasthan</Typography>
-                <Typography sx={{ fontFamily:'poppins', fontSize:"1rem", color:"White", mt:2 }} >Web Developer</Typography>
+                <Typography sx={{ fontFamily:'poppins', fontSize:"0.9rem", color:"White", fontWeigh:400 }} >Software Developer</Typography>
+                </Box>
                 <ul style={{ marginLeft:"2rem", marginTop:"0.7rem" }} >
                     <li style={{ fontFamily:"poppins", fontWeight:400, fontSize:"0.8rem", color:"gray" }} >Developed APIs/modules for B2B & B2C</li>
                     <li style={{ fontFamily:"poppins", fontWeight:400, fontSize:"0.8rem", color:"gray" }} >Automated wallet, PG, and billing systems, web scrapping</li>

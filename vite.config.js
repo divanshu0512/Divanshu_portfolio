@@ -6,8 +6,11 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      // This tells MUI to use styled-components
+      // Tells MUI to use styled-components
       '@mui/styled-engine': '@mui/styled-engine-sc',
     },
+  },
+  optimizeDeps: {
+    include: ['gl-matrix'], // 👈 Add this line
   },
 });
