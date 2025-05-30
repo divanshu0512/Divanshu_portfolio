@@ -4,7 +4,7 @@ import ScrollVelocity from './component/ScrollVelocity'
 
 const NextPage = () => {
   return (
-    <Box sx={{ height:'50vh', width:"100%", backgroundColor:"black" }} >
+    <Box sx={{ height:'30vh', width:"100%", backgroundColor:"black" }} >
         <ScrollVelocity
         texts={['Welcome', 'Professionals']} 
         velocity={100} 

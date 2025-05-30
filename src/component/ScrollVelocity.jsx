@@ -8,6 +8,7 @@ import {
   useVelocity,
   useAnimationFrame,
 } from "framer-motion";
+import { Box } from "@mui/material";
 
 function useElementWidth(ref) {
   const [width, setWidth] = useState(0);
@@ -119,7 +120,7 @@ export const ScrollVelocity = ({
   }
 
   return (
-    <section>
+    <Box  >
       {texts.map((text, index) => (
         <VelocityText
           key={index}
@@ -138,7 +139,7 @@ export const ScrollVelocity = ({
           {text}&nbsp;
         </VelocityText>
       ))}
-    </section>
+    </Box>
   );
 };
 

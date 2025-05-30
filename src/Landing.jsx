@@ -22,7 +22,7 @@ const Landing = () => {
 
     <Box sx={{ mt:10 }} >
       {/* <Typography sx={{ fontSize:'1.5rem', color:'#bfbbbb' }} >Hii👋, This Side..</Typography> */}
-      <Typography sx={{ fontSize:'6rem', color:'white', fontWeight:600, mt:-1 }} > I'm <span style={{ color:"#60ff40" }} > Divanshu </span> Sharma</Typography>
+      <Typography sx={{ fontSize:{lg:'6rem', xs:'2rem'} , color:'white', fontWeight:600, mt:-1, textAlign:'center' }} > I'm <span style={{ color:"#60ff40" }} > Divanshu </span> Sharma</Typography>
       <Box sx={{ zIndex:1 }} >
         
       <RotatingText
@@ -40,7 +40,7 @@ const Landing = () => {
       </Box>
     </Box>
 
-  <Button variant='contained' sx={{ fontFamily:'poppins', fontSize:"1.2rem", mt:15, backgroundColor:"#36f75a", boxShadow:'0px 0px 10px 2px rgba(115, 241, 138, 0.76)' }} >Download Resume..</Button>    
+  <Button variant='contained' sx={{ fontFamily:'poppins', fontSize:"1.2rem", mt: {lg:15, sm:12, sx:12, xs:10}, backgroundColor:"#36f75a", boxShadow:'0px 0px 10px 2px rgba(115, 241, 138, 0.76)' }} >Download Resume..</Button>    
 
     </Box>
   )

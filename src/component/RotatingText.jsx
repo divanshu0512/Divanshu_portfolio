@@ -217,7 +217,7 @@ const RotatingText = forwardRef((props, ref) => {
         </motion.div>
       </AnimatePresence>
       </div>
-      <Typography sx={{ fontSize:'3rem', color:'#bfbbbb', fontWeight:500 }} >Developer..</Typography>
+      <Typography sx={{ fontSize:{ lg: '3rem', sm:'3rem', md:'3rem', xs:"2rem"}, color:'#bfbbbb', fontWeight:500 }} >Developer..</Typography>
     </motion.span>
   );
 });
