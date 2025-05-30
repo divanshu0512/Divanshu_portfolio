@@ -38,23 +38,28 @@ const Journey = () => {
 
     <Box sx={{ display:'flex', justifyContent:'space-evenly', mt:2 }} >
 
-    <Box>
+    <Box sx={{  }} >
 
         
-    <Box sx={{ width:"35rem", height:"10rem", border:"1px solid white", p:2, borderRadius:"2rem", mt:2 }} >
+    <Box sx={{ width:"35rem", height:"10rem", border:"1px solid white", p:2, borderRadius:"2rem", mt:2, position:"relative" }} >
+        <Box sx={{ display:'flex', alignItems:'center', position:'absolute', right:-20, top:5 }} >
+            <Typography sx={{ fontFamily:'Poppins', fontWeight:500, fontSize:"0.85rem", backgroundColor:'#119400', color:"", padding:"3px", borderRadius:5, transform:"rotate(15deg)" }} >Highest Qualification</Typography>
+        </Box>
             <Box sx={{ display:'flex', alignItems:"center", justifyContent:"space-evenly", mt:1 }} >  
                 <Typography sx={{ fontFamily:"Poppins", fontSize:"0.9rem", color:"#bababa" }}  >08/2023</Typography>
                 <Typography sx={{ fontFamily:"Poppins", fontSize:"0.9rem", color:"#bababa" }} >Present</Typography>
             </Box>
 
             <Box sx={{ mt:2 }} >
-                <Typography sx={{ fontFamily:'Poppins', fontWeight:500, fontSize:"1.2rem" }} >APIIT SD INDIA , Panipat ,Haryana</Typography>
-                <Typography sx={{ fontFamily:'poppins', fontSize:"1rem", color:"#bababa", mt:2 }} >B.Tech - Bachelor of Technology</Typography>
+                <Typography sx={{ fontFamily:'Poppins', fontWeight:500, fontSize:"1.2rem", textAlign:"center" }} >APIIT SD INDIA , Panipat (Haryana)</Typography>
+                <Typography sx={{ fontFamily:'poppins', fontSize:"1rem", color:"#bababa", mt:2, textAlign:"center" }} >B.Tech - Bachelor of Technology (Graduation) </Typography>
+                <Typography sx={{ fontFamily:'poppins', fontSize:"1rem", color:"#bababa", mt:2, textAlign:"center", fontWeight:400 }} > Grade - 8.28 CGPA </Typography>
+
             </Box>
         </Box>
 
 
-        <Box sx={{ width:"35rem", height:"8 rem", border:"1px solid white", p:2, borderRadius:"2rem", mt:5 }} >
+        {/* <Box sx={{ width:"35rem", height:"8 rem", border:"1px solid white", p:2, borderRadius:"2rem", mt:5 }} >
             <Box sx={{ display:'flex', alignItems:"center", justifyContent:"space-evenly", mt:1 }} >  
                 <Typography sx={{ fontFamily:"Poppins", fontSize:"0.9rem", color:"#bababa" }}  >08/2018</Typography>
                 <Typography sx={{ fontFamily:"Poppins", fontSize:"0.9rem", color:"#bababa" }} >10/2021</Typography>
@@ -64,7 +69,7 @@ const Journey = () => {
                 <Typography sx={{ fontFamily:'Poppins', fontWeight:500, fontSize:"1.2rem" }} >G.B.N Govt Polytechnic, Haryana</Typography>
                 <Typography sx={{ fontFamily:'poppins', fontSize:"1rem", color:"#bababa", mt:2 }} >Technical Diploma - Polytechnic</Typography>
             </Box>
-        </Box>
+        </Box> */}
     </Box>
 
 

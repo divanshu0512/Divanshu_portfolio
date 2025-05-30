@@ -446,3 +446,27 @@ cursor: pointer;
 #count-up-text{
   font-size: 20rem;
 }
+
+.custom-class{
+  text-align: left;
+  margin-left: auto;
+}
+.list li{
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color:rgb(141, 141, 141);
+  margin-top: 10px;
+}
+
+.glass-box {
+  width: 2rem;
+  padding: 2rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1); /* transparent white */
+  box-shadow: 0 8px 32px 0 rgba(103, 206, 254, 0.37);
+  backdrop-filter: blur(10px); /* 💎 this creates the blur */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+}

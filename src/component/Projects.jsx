@@ -10,6 +10,7 @@ import dmt from "../assets/projects/dmt.png"
 import giftVoucher from "../assets/projects/giftVoucher.png"
 import login from "../assets/projects/login.png"
 import bills from "../assets/projects/bills.png"
+import zeptoo from "../assets/projects/zepto.png";
 
 const Projects = () => {
   const items = [
@@ -54,6 +55,12 @@ const Projects = () => {
       title: 'Utility & Bills',
       description: 'This is pretty cool, right?',
     },
+    {
+      image: zeptoo,
+      link: 'https://google.com/',
+      title: 'Food Order (ZEPTOO)',
+      description: 'This is pretty cool, right?',
+    }
   ];
 
   return (

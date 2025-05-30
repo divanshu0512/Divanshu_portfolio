@@ -5,6 +5,8 @@ import Landing from './Landing.jsx'
 import Handler from './Handler.jsx'
 import Projects from './component/Projects.jsx'
 import About from './About.jsx'
+import Skillls from './Skillls.jsx'
+import SkillHeader from './SkillHeader.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +18,7 @@ function App() {
           <Route path="/" element={ <Handler/> } />
           <Route path="/projects" element={ <Projects/> } />
           <Route path="/about" element={ <About/> } />
+          <Route path="/skills" element={ <SkillHeader/> } />
 
         </Routes>
       </BrowserRouter>
